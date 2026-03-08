@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ZestyKitchen/static/css/main.897df88a.css",
+    "main.js": "/ZestyKitchen/static/js/main.17b29e50.js",
+    "static/js/453.09cc389d.chunk.js": "/ZestyKitchen/static/js/453.09cc389d.chunk.js",
+    "static/media/video.mp4": "/ZestyKitchen/static/media/video.c119749d97d89e80bb93.mp4",
+    "static/media/logo.png": "/ZestyKitchen/static/media/logo.a8bc2051d412ac3a1649.png",
+    "static/media/menu.jpg": "/ZestyKitchen/static/media/menu.85c300770eb082b62aee.jpg",
+    "static/media/about.jpg": "/ZestyKitchen/static/media/about.5f9f571099a2c84a5c11.jpg",
+    "static/media/menu2.jpg": "/ZestyKitchen/static/media/menu2.c4329ccc80edd1088f6d.jpg",
+    "static/media/contact.jpg": "/ZestyKitchen/static/media/contact.303bc13e9518e4d64a56.jpg",
+    "static/media/home.jpg": "/ZestyKitchen/static/media/home.390889b70cca09e7378b.jpg",
+    "index.html": "/ZestyKitchen/index.html",
+    "main.897df88a.css.map": "/ZestyKitchen/static/css/main.897df88a.css.map",
+    "main.17b29e50.js.map": "/ZestyKitchen/static/js/main.17b29e50.js.map",
+    "453.09cc389d.chunk.js.map": "/ZestyKitchen/static/js/453.09cc389d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.897df88a.css",
+    "static/js/main.17b29e50.js"
+  ]
+}
