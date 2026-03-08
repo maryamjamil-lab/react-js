@@ -1,0 +1,58 @@
+
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+  background-color: #282c35;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+  
+}
+.logo{
+  width: 180px;
+  cursor: pointer;
+}
+nav ul{
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li{
+  position: relative;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
+}
+
+nav ul li::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -6px;
+  background: #ff7b00;
+  transition: 0.4s;
+}
+
+nav ul li:hover a{
+  color: #ff7b00;
+}
+
+nav ul li:hover::after{
+  width: 100%;
+}
+.button{
+  display: flex;
+  gap: 15px;
+}

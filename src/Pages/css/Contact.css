@@ -1,0 +1,122 @@
+.contact-page {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('../../assets/contact.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-wrapper {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+}
+
+.contact-info {
+  flex: 1;
+  padding: 60px;
+  background: #ff7b00;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.info-list {
+  margin-top: 30px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.c-icon {
+  font-size: 24px;
+  background: rgba(255,255,255,0.2);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.contact-form-section {
+  flex: 1.5;
+  padding: 60px;
+}
+
+.glass-form h3 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.glass-form input, 
+.glass-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.glass-form input:focus, 
+.glass-form textarea:focus {
+  border-color: #ff7b00;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.submit-btn {
+  padding: 15px 45px;
+  background: #ff7b00;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 10px 20px rgba(255, 123, 0, 0.3);
+}
+
+.submit-btn:hover {
+  background: white;
+  color: #ff7b00;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 850px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-info, .contact-form-section {
+    padding: 40px;
+  }
+}
