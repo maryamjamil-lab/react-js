@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="contact-container">
           <div className="contact-info">
             <h2>Get In Touch</h2>
-            <p>Humse raabta karein, humein aapki help karke khushi hogi!</p>
+            <p>Contact us, we'd love to help you!</p>
             
             <div className="info-list">
               <div className="info-item">
